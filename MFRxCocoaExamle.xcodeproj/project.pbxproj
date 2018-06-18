@@ -7,14 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3710C02220D7A90C00583513 /* MFLandExampleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3710C02020D7A90C00583513 /* MFLandExampleViewController.swift */; };
+		3710C02320D7A90C00583513 /* MFLandExampleViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3710C02120D7A90C00583513 /* MFLandExampleViewController.xib */; };
+		3710C02820D7C1CB00583513 /* Operator--WithLatestFrom.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3710C02720D7C1CB00583513 /* Operator--WithLatestFrom.swift */; };
+		3710C02B20D7C87E00583513 /* Observable&&Observer--PublishSubject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3710C02A20D7C87E00583513 /* Observable&&Observer--PublishSubject.swift */; };
 		37C273A820CBF181003AFB9C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37C273A720CBF181003AFB9C /* AppDelegate.swift */; };
 		37C273AA20CBF181003AFB9C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37C273A920CBF181003AFB9C /* ViewController.swift */; };
 		37C273AD20CBF181003AFB9C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 37C273AB20CBF181003AFB9C /* Main.storyboard */; };
 		37C273AF20CBF182003AFB9C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 37C273AE20CBF182003AFB9C /* Assets.xcassets */; };
 		37C273B220CBF182003AFB9C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 37C273B020CBF182003AFB9C /* LaunchScreen.storyboard */; };
+		D7019DB5813EA494C048B2F5 /* libPods-MFRxCocoaExamle.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1FD7D6A467C32B7E0D42DEF4 /* libPods-MFRxCocoaExamle.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1FD7D6A467C32B7E0D42DEF4 /* libPods-MFRxCocoaExamle.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MFRxCocoaExamle.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3710C02020D7A90C00583513 /* MFLandExampleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MFLandExampleViewController.swift; sourceTree = "<group>"; };
+		3710C02120D7A90C00583513 /* MFLandExampleViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MFLandExampleViewController.xib; sourceTree = "<group>"; };
+		3710C02720D7C1CB00583513 /* Operator--WithLatestFrom.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Operator--WithLatestFrom.swift"; sourceTree = "<group>"; };
+		3710C02A20D7C87E00583513 /* Observable&&Observer--PublishSubject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Observable&&Observer--PublishSubject.swift"; sourceTree = "<group>"; };
 		37C273A420CBF181003AFB9C /* MFRxCocoaExamle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MFRxCocoaExamle.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		37C273A720CBF181003AFB9C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		37C273A920CBF181003AFB9C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +32,8 @@
 		37C273AE20CBF182003AFB9C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		37C273B120CBF182003AFB9C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		37C273B320CBF182003AFB9C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5CE241653D5E2A55A46DD7A9 /* Pods-MFRxCocoaExamle.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MFRxCocoaExamle.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MFRxCocoaExamle/Pods-MFRxCocoaExamle.debug.xcconfig"; sourceTree = "<group>"; };
+		940F42ACBC3D527AD9065A0C /* Pods-MFRxCocoaExamle.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MFRxCocoaExamle.release.xcconfig"; path = "Pods/Target Support Files/Pods-MFRxCocoaExamle/Pods-MFRxCocoaExamle.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +41,45 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D7019DB5813EA494C048B2F5 /* libPods-MFRxCocoaExamle.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3710C02420D7C18700583513 /* Operators */ = {
+			isa = PBXGroup;
+			children = (
+				3710C02720D7C1CB00583513 /* Operator--WithLatestFrom.swift */,
+			);
+			path = Operators;
+			sourceTree = "<group>";
+		};
+		3710C02920D7C85500583513 /* Observable&&Observer */ = {
+			isa = PBXGroup;
+			children = (
+				3710C02A20D7C87E00583513 /* Observable&&Observer--PublishSubject.swift */,
+			);
+			path = "Observable&&Observer";
+			sourceTree = "<group>";
+		};
+		37C25AC520D695B300EA5F1D /* UIControls */ = {
+			isa = PBXGroup;
+			children = (
+				3710C02020D7A90C00583513 /* MFLandExampleViewController.swift */,
+				3710C02120D7A90C00583513 /* MFLandExampleViewController.xib */,
+			);
+			path = UIControls;
+			sourceTree = "<group>";
+		};
 		37C2739B20CBF180003AFB9C = {
 			isa = PBXGroup;
 			children = (
 				37C273A620CBF181003AFB9C /* MFRxCocoaExamle */,
 				37C273A520CBF181003AFB9C /* Products */,
+				4C56B61ADD445DC0F9353720 /* Pods */,
+				D2696D71C3187F9C35D1E0AB /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,12 +96,32 @@
 			children = (
 				37C273A720CBF181003AFB9C /* AppDelegate.swift */,
 				37C273A920CBF181003AFB9C /* ViewController.swift */,
+				3710C02920D7C85500583513 /* Observable&&Observer */,
+				3710C02420D7C18700583513 /* Operators */,
+				37C25AC520D695B300EA5F1D /* UIControls */,
 				37C273AB20CBF181003AFB9C /* Main.storyboard */,
 				37C273AE20CBF182003AFB9C /* Assets.xcassets */,
 				37C273B020CBF182003AFB9C /* LaunchScreen.storyboard */,
 				37C273B320CBF182003AFB9C /* Info.plist */,
 			);
 			path = MFRxCocoaExamle;
+			sourceTree = "<group>";
+		};
+		4C56B61ADD445DC0F9353720 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5CE241653D5E2A55A46DD7A9 /* Pods-MFRxCocoaExamle.debug.xcconfig */,
+				940F42ACBC3D527AD9065A0C /* Pods-MFRxCocoaExamle.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		D2696D71C3187F9C35D1E0AB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1FD7D6A467C32B7E0D42DEF4 /* libPods-MFRxCocoaExamle.a */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,6 +131,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 37C273B620CBF182003AFB9C /* Build configuration list for PBXNativeTarget "MFRxCocoaExamle" */;
 			buildPhases = (
+				A3E40361A31C2253EF3CAD21 /* [CP] Check Pods Manifest.lock */,
 				37C273A020CBF181003AFB9C /* Sources */,
 				37C273A120CBF181003AFB9C /* Frameworks */,
 				37C273A220CBF181003AFB9C /* Resources */,
@@ -123,6 +184,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				37C273B220CBF182003AFB9C /* LaunchScreen.storyboard in Resources */,
+				3710C02320D7A90C00583513 /* MFLandExampleViewController.xib in Resources */,
 				37C273AF20CBF182003AFB9C /* Assets.xcassets in Resources */,
 				37C273AD20CBF181003AFB9C /* Main.storyboard in Resources */,
 			);
@@ -130,11 +192,35 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		A3E40361A31C2253EF3CAD21 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MFRxCocoaExamle-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		37C273A020CBF181003AFB9C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3710C02820D7C1CB00583513 /* Operator--WithLatestFrom.swift in Sources */,
+				3710C02B20D7C87E00583513 /* Observable&&Observer--PublishSubject.swift in Sources */,
+				3710C02220D7A90C00583513 /* MFLandExampleViewController.swift in Sources */,
 				37C273AA20CBF181003AFB9C /* ViewController.swift in Sources */,
 				37C273A820CBF181003AFB9C /* AppDelegate.swift in Sources */,
 			);
@@ -278,10 +364,12 @@
 		};
 		37C273B720CBF182003AFB9C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5CE241653D5E2A55A46DD7A9 /* Pods-MFRxCocoaExamle.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = MFRxCocoaExamle/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -295,10 +383,12 @@
 		};
 		37C273B820CBF182003AFB9C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 940F42ACBC3D527AD9065A0C /* Pods-MFRxCocoaExamle.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = MFRxCocoaExamle/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

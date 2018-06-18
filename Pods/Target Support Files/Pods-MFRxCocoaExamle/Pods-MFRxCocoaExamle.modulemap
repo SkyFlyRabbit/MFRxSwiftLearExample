@@ -1,0 +1,6 @@
+module Pods_MFRxCocoaExamle {
+  umbrella header "Pods-MFRxCocoaExamle-umbrella.h"
+
+  export *
+  module * { export * }
+}
