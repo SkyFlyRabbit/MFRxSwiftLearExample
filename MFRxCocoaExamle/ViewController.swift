@@ -21,7 +21,7 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
         self.dataArray = [
             ["Observable(被观察者)":["ss"]],
             ["Observable(观察者)":["ss"]],
-            ["Operator(操作符)":["withLatestFrom"]],
+            ["Operator(操作符)":["withLatestFrom", "combineLatest"]],
             ["Observable&&Observer(既是可被监听的序列也是观察者)":["PublishSubject"]],
             ["使用例子":["UITextField控件使用"]],
                          ]
@@ -44,7 +44,7 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
     {
         if section < (self.dataArray?.count)! {
             let dic = self.dataArray![section]
-            return (dic as AnyObject).count
+            return (dic.values.first?.count)!
         }
         return 0
     }
@@ -86,7 +86,9 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
             case 2://Operator(操作符)
                 switch indexPath.row {
                     case 0:
-                        vc = Operator__WithLatestFrom.init(nibName: nil, bundle: nil)
+                        vc = Operator__withLatestFrom.init(nibName: nil, bundle: nil)
+                    case 1:
+                        vc = Operator___combineLatest.init(nibName: nil, bundle: nil)
                     default:
                         print("🙄")
                 }

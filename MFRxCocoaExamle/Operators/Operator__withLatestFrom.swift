@@ -15,12 +15,16 @@ import RxCocoa
  * withLatestFrom
  * 将两个 Observables 最新的元素通过一个函数组合起来，当第一个 Observable 发出一个元素，就将组合后的元素发送出来
  * withLatestFrom 操作符将两个 Observables 中最新的元素通过一个函数组合起来，然后将这个组合的结果发出来。当第一个 Observable 发出一个元素时，就立即取出第二个 Observable 中最新的元素，通过一个组合函数将两个最新的元素合并后发送出去。
+ *
+ *
+ *
+ * 笔记: (1)组合方式默认拼接方式,但是可以由自己指定(其实就是自定义一个函数,给出返回值)
+        (2)第二个Observables要发出过元素,第一个在发出元素时才会进行取出第二个Observables中最新元素的操作
  */
-class Operator__WithLatestFrom: UIViewController {
+class Operator__withLatestFrom: MBaseViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        self.view.backgroundColor = UIColor.lightGray
         self.operatorUseExample1()
         self.operatorUseExample2()
         self.operatorUseExample3()
