@@ -21,7 +21,7 @@ import RxCocoa
  * 笔记: (1)组合方式默认拼接方式,但是可以由自己指定(其实就是自定义一个函数,给出返回值)
         (2)第二个Observables要发出过元素,第一个在发出元素时才会进行取出第二个Observables中最新元素的操作
  */
-class Operator__withLatestFrom: MBaseViewController {
+class Operator___withLatestFrom: MBaseViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()

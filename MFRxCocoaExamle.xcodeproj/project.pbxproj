@@ -9,10 +9,11 @@
 /* Begin PBXBuildFile section */
 		3710C02220D7A90C00583513 /* MFLandExampleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3710C02020D7A90C00583513 /* MFLandExampleViewController.swift */; };
 		3710C02320D7A90C00583513 /* MFLandExampleViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3710C02120D7A90C00583513 /* MFLandExampleViewController.xib */; };
-		3710C02820D7C1CB00583513 /* Operator__withLatestFrom.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3710C02720D7C1CB00583513 /* Operator__withLatestFrom.swift */; };
+		3710C02820D7C1CB00583513 /* Operator___withLatestFrom.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3710C02720D7C1CB00583513 /* Operator___withLatestFrom.swift */; };
 		3710C02B20D7C87E00583513 /* Observable&&Observer--PublishSubject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3710C02A20D7C87E00583513 /* Observable&&Observer--PublishSubject.swift */; };
 		3787D27620DA99CC004DCAED /* Operator__ combineLatest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3787D27520DA99CC004DCAED /* Operator__ combineLatest.swift */; };
 		3787D27820DA9B02004DCAED /* MBaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3787D27720DA9B02004DCAED /* MBaseViewController.swift */; };
+		3787D27A20DAA11E004DCAED /* Operator__ flatMapLatest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3787D27920DAA11E004DCAED /* Operator__ flatMapLatest.swift */; };
 		37C273A820CBF181003AFB9C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37C273A720CBF181003AFB9C /* AppDelegate.swift */; };
 		37C273AA20CBF181003AFB9C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37C273A920CBF181003AFB9C /* ViewController.swift */; };
 		37C273AD20CBF181003AFB9C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 37C273AB20CBF181003AFB9C /* Main.storyboard */; };
@@ -25,10 +26,11 @@
 		1FD7D6A467C32B7E0D42DEF4 /* libPods-MFRxCocoaExamle.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MFRxCocoaExamle.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3710C02020D7A90C00583513 /* MFLandExampleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MFLandExampleViewController.swift; sourceTree = "<group>"; };
 		3710C02120D7A90C00583513 /* MFLandExampleViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MFLandExampleViewController.xib; sourceTree = "<group>"; };
-		3710C02720D7C1CB00583513 /* Operator__withLatestFrom.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Operator__withLatestFrom.swift; sourceTree = "<group>"; };
+		3710C02720D7C1CB00583513 /* Operator___withLatestFrom.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Operator___withLatestFrom.swift"; sourceTree = "<group>"; };
 		3710C02A20D7C87E00583513 /* Observable&&Observer--PublishSubject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Observable&&Observer--PublishSubject.swift"; sourceTree = "<group>"; };
 		3787D27520DA99CC004DCAED /* Operator__ combineLatest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Operator__ combineLatest.swift"; sourceTree = "<group>"; };
 		3787D27720DA9B02004DCAED /* MBaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MBaseViewController.swift; sourceTree = "<group>"; };
+		3787D27920DAA11E004DCAED /* Operator__ flatMapLatest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Operator__ flatMapLatest.swift"; sourceTree = "<group>"; };
 		37C273A420CBF181003AFB9C /* MFRxCocoaExamle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MFRxCocoaExamle.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		37C273A720CBF181003AFB9C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		37C273A920CBF181003AFB9C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -55,8 +57,9 @@
 		3710C02420D7C18700583513 /* Operators */ = {
 			isa = PBXGroup;
 			children = (
-				3710C02720D7C1CB00583513 /* Operator__withLatestFrom.swift */,
+				3710C02720D7C1CB00583513 /* Operator___withLatestFrom.swift */,
 				3787D27520DA99CC004DCAED /* Operator__ combineLatest.swift */,
+				3787D27920DAA11E004DCAED /* Operator__ flatMapLatest.swift */,
 			);
 			path = Operators;
 			sourceTree = "<group>";
@@ -225,10 +228,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				3787D27820DA9B02004DCAED /* MBaseViewController.swift in Sources */,
-				3710C02820D7C1CB00583513 /* Operator__withLatestFrom.swift in Sources */,
+				3710C02820D7C1CB00583513 /* Operator___withLatestFrom.swift in Sources */,
 				3710C02B20D7C87E00583513 /* Observable&&Observer--PublishSubject.swift in Sources */,
 				3710C02220D7A90C00583513 /* MFLandExampleViewController.swift in Sources */,
 				3787D27620DA99CC004DCAED /* Operator__ combineLatest.swift in Sources */,
+				3787D27A20DAA11E004DCAED /* Operator__ flatMapLatest.swift in Sources */,
 				37C273AA20CBF181003AFB9C /* ViewController.swift in Sources */,
 				37C273A820CBF181003AFB9C /* AppDelegate.swift in Sources */,
 			);
