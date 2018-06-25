@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3705008220E127BF00138977 /* Operator__ just.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3705008120E127BF00138977 /* Operator__ just.swift */; };
+		3705008420E12B5300138977 /* Operator__timer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3705008320E12B5300138977 /* Operator__timer.swift */; };
+		3705008620E12E9F00138977 /* Operator__merge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3705008520E12E9F00138977 /* Operator__merge.swift */; };
+		3705008820E133A100138977 /* Operator__concat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3705008720E133A100138977 /* Operator__concat.swift */; };
 		3710C02220D7A90C00583513 /* MFLandExampleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3710C02020D7A90C00583513 /* MFLandExampleViewController.swift */; };
 		3710C02320D7A90C00583513 /* MFLandExampleViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3710C02120D7A90C00583513 /* MFLandExampleViewController.xib */; };
 		3710C02820D7C1CB00583513 /* Operator___withLatestFrom.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3710C02720D7C1CB00583513 /* Operator___withLatestFrom.swift */; };
@@ -24,6 +28,10 @@
 
 /* Begin PBXFileReference section */
 		1FD7D6A467C32B7E0D42DEF4 /* libPods-MFRxCocoaExamle.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MFRxCocoaExamle.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3705008120E127BF00138977 /* Operator__ just.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Operator__ just.swift"; sourceTree = "<group>"; };
+		3705008320E12B5300138977 /* Operator__timer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Operator__timer.swift; sourceTree = "<group>"; };
+		3705008520E12E9F00138977 /* Operator__merge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Operator__merge.swift; sourceTree = "<group>"; };
+		3705008720E133A100138977 /* Operator__concat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Operator__concat.swift; sourceTree = "<group>"; };
 		3710C02020D7A90C00583513 /* MFLandExampleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MFLandExampleViewController.swift; sourceTree = "<group>"; };
 		3710C02120D7A90C00583513 /* MFLandExampleViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MFLandExampleViewController.xib; sourceTree = "<group>"; };
 		3710C02720D7C1CB00583513 /* Operator___withLatestFrom.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Operator___withLatestFrom.swift"; sourceTree = "<group>"; };
@@ -60,6 +68,10 @@
 				3710C02720D7C1CB00583513 /* Operator___withLatestFrom.swift */,
 				3787D27520DA99CC004DCAED /* Operator__ combineLatest.swift */,
 				3787D27920DAA11E004DCAED /* Operator__ flatMapLatest.swift */,
+				3705008120E127BF00138977 /* Operator__ just.swift */,
+				3705008320E12B5300138977 /* Operator__timer.swift */,
+				3705008520E12E9F00138977 /* Operator__merge.swift */,
+				3705008720E133A100138977 /* Operator__concat.swift */,
 			);
 			path = Operators;
 			sourceTree = "<group>";
@@ -228,13 +240,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				3787D27820DA9B02004DCAED /* MBaseViewController.swift in Sources */,
+				3705008420E12B5300138977 /* Operator__timer.swift in Sources */,
 				3710C02820D7C1CB00583513 /* Operator___withLatestFrom.swift in Sources */,
 				3710C02B20D7C87E00583513 /* Observable&&Observer--PublishSubject.swift in Sources */,
+				3705008620E12E9F00138977 /* Operator__merge.swift in Sources */,
 				3710C02220D7A90C00583513 /* MFLandExampleViewController.swift in Sources */,
 				3787D27620DA99CC004DCAED /* Operator__ combineLatest.swift in Sources */,
+				3705008820E133A100138977 /* Operator__concat.swift in Sources */,
 				3787D27A20DAA11E004DCAED /* Operator__ flatMapLatest.swift in Sources */,
 				37C273AA20CBF181003AFB9C /* ViewController.swift in Sources */,
 				37C273A820CBF181003AFB9C /* AppDelegate.swift in Sources */,
+				3705008220E127BF00138977 /* Operator__ just.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

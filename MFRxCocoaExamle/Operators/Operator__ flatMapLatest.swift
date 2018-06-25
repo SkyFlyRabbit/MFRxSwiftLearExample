@@ -23,7 +23,7 @@ import RxCocoa
         (3)新的Observable元素产生后,旧的Observable元素将被忽略掉
  
  */
-class Operator___flatMapLatest: UIViewController {
+class Operator___flatMapLatest: MBaseViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()

@@ -21,7 +21,7 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
         self.dataArray = [
             ["Observable(被观察者)":["ss"]],
             ["Observable(观察者)":["ss"]],
-            ["Operator(操作符)":["withLatestFrom", "combineLatest", "flatMapLatest"]],
+            ["Operator(操作符)":["withLatestFrom", "combineLatest", "flatMapLatest", "just", "merge", "concat"]],
             ["Observable&&Observer(既是可被监听的序列也是观察者)":["PublishSubject"]],
             ["使用例子":["UITextField控件使用"]],
                          ]
@@ -66,7 +66,7 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
     public func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell
     {
         let cell: UITableViewCell = tableView.dequeueReusableCell(withIdentifier: "cell")!
-        if indexPath.row < (self.dataArray?.count)! {
+        if indexPath.section < (self.dataArray?.count)! {
             let dic = self.dataArray![indexPath.section]
             cell.textLabel?.text = dic.values.first?[indexPath.row]
         }
@@ -91,6 +91,12 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
                         vc = Operator___combineLatest.init(nibName: nil, bundle: nil)
                     case 2:
                         vc = Operator___flatMapLatest.init(nibName: nil, bundle: nil)
+                    case 3:
+                        vc = Operator___just.init(nibName: nil, bundle: nil)
+                    case 4:
+                        vc = Operator__merge.init(nibName: nil, bundle: nil)
+                    case 5:
+                        vc = Operator__concat.init(nibName: nil, bundle: nil)
                     default:
                         print("🙄")
                 }
