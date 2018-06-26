@@ -21,7 +21,7 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
         self.dataArray = [
             ["Observable(被观察者)":["ss"]],
             ["Observable(观察者)":["ss"]],
-            ["Operator(操作符)":["withLatestFrom", "combineLatest", "flatMapLatest", "just", "merge", "concat"]],
+            ["Operator(操作符)":["withLatestFrom", "combineLatest", "flatMapLatest", "just", "merge", "concat", "zip"]],
             ["Observable&&Observer(既是可被监听的序列也是观察者)":["PublishSubject"]],
             ["使用例子":["UITextField控件使用"]],
                          ]
@@ -97,6 +97,8 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
                         vc = Operator__merge.init(nibName: nil, bundle: nil)
                     case 5:
                         vc = Operator__concat.init(nibName: nil, bundle: nil)
+                    case 6:
+                        vc = Operator__zip.init(nibName: nil, bundle: nil)
                     default:
                         print("🙄")
                 }

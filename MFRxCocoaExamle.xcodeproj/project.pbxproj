@@ -11,6 +11,7 @@
 		3705008420E12B5300138977 /* Operator__timer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3705008320E12B5300138977 /* Operator__timer.swift */; };
 		3705008620E12E9F00138977 /* Operator__merge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3705008520E12E9F00138977 /* Operator__merge.swift */; };
 		3705008820E133A100138977 /* Operator__concat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3705008720E133A100138977 /* Operator__concat.swift */; };
+		3705008A20E1B96A00138977 /* Operator__zip.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3705008920E1B96A00138977 /* Operator__zip.swift */; };
 		3710C02220D7A90C00583513 /* MFLandExampleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3710C02020D7A90C00583513 /* MFLandExampleViewController.swift */; };
 		3710C02320D7A90C00583513 /* MFLandExampleViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3710C02120D7A90C00583513 /* MFLandExampleViewController.xib */; };
 		3710C02820D7C1CB00583513 /* Operator___withLatestFrom.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3710C02720D7C1CB00583513 /* Operator___withLatestFrom.swift */; };
@@ -32,6 +33,7 @@
 		3705008320E12B5300138977 /* Operator__timer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Operator__timer.swift; sourceTree = "<group>"; };
 		3705008520E12E9F00138977 /* Operator__merge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Operator__merge.swift; sourceTree = "<group>"; };
 		3705008720E133A100138977 /* Operator__concat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Operator__concat.swift; sourceTree = "<group>"; };
+		3705008920E1B96A00138977 /* Operator__zip.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Operator__zip.swift; sourceTree = "<group>"; };
 		3710C02020D7A90C00583513 /* MFLandExampleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MFLandExampleViewController.swift; sourceTree = "<group>"; };
 		3710C02120D7A90C00583513 /* MFLandExampleViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MFLandExampleViewController.xib; sourceTree = "<group>"; };
 		3710C02720D7C1CB00583513 /* Operator___withLatestFrom.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Operator___withLatestFrom.swift"; sourceTree = "<group>"; };
@@ -72,6 +74,7 @@
 				3705008320E12B5300138977 /* Operator__timer.swift */,
 				3705008520E12E9F00138977 /* Operator__merge.swift */,
 				3705008720E133A100138977 /* Operator__concat.swift */,
+				3705008920E1B96A00138977 /* Operator__zip.swift */,
 			);
 			path = Operators;
 			sourceTree = "<group>";
@@ -239,6 +242,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3705008A20E1B96A00138977 /* Operator__zip.swift in Sources */,
 				3787D27820DA9B02004DCAED /* MBaseViewController.swift in Sources */,
 				3705008420E12B5300138977 /* Operator__timer.swift in Sources */,
 				3710C02820D7C1CB00583513 /* Operator___withLatestFrom.swift in Sources */,
